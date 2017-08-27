@@ -3,9 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "COpenSSL",
-    pkgConfig: "libopenssl",
+    pkgConfig: "openssl",
     providers: [
-        .brew(["libopenssl"]),
-        .apt(["libopenssl"]),
+        .brew(["openssl"]),
+        .apt(["openssl"]),
     ]
 )
