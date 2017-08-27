@@ -1,7 +1,6 @@
-#ifndef CLibreSSL_h
-#define CLibreSSL_h
+#ifndef COpenSSL_h
+#define COpenSSL_h
 
-#include <tls.h>
 #include <openssl/ssl.h>
 #include <openssl/crypto.h>
 

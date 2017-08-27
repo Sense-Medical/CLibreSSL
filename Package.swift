@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "CLibreSSL",
-    pkgConfig: "libtls",
+    name: "COpenSSL",
+    pkgConfig: "libopenssl",
     providers: [
-        .brew(["libressl"]),
-        .apt(["libressl"]),
+        .brew(["libopenssl"]),
+        .apt(["libopenssl"]),
     ]
 )

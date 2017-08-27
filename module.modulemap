@@ -1,6 +1,5 @@
-module CLibreSSL [system] {
-    header "CLibreSSL.h"
-    link "tls"
+module COpenSSL [system] {
+    header "COpenSSL.h"
     link "ssl"
     link "crypto"
 }
